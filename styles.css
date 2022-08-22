@@ -89,7 +89,7 @@ body {
 			transparent 76%,
 			transparent 100%
 		),
-		linear-gradient(225deg, rgb(235, 83, 85), rgb(121, 11, 174));
+		linear-gradient(225deg, rgb(248, 51, 55), rgb(104, 6, 35));
 }
 
 .divided__screen {
@@ -102,15 +102,15 @@ body {
 }
 
 .left__side {
-	width: 50%;
+	width: 30%;
 }
 
 .left__img {
-	height: 600px;
+	height: 700px;
 }
 
 .right__side {
-	width: 40%;
+	width: 60%;
 	height: 80%;
 	border-radius: 37px;
 	background: linear-gradient(315deg, rgba(255, 255, 255, 0.347), rgba(140, 140, 140, 0.358));
