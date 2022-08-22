@@ -1,0 +1,132 @@
+/* RESET */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	background-image: radial-gradient(
+			circle at 29% 55%,
+			hsla(329, 0%, 99%, 0.05) 0%,
+			hsla(329, 0%, 99%, 0.05) 4%,
+			transparent 4%,
+			transparent 44%,
+			transparent 44%,
+			transparent 100%
+		),
+		radial-gradient(
+			circle at 85% 89%,
+			hsla(329, 0%, 99%, 0.05) 0%,
+			hsla(329, 0%, 99%, 0.05) 51%,
+			transparent 51%,
+			transparent 52%,
+			transparent 52%,
+			transparent 100%
+		),
+		radial-gradient(
+			circle at 6% 90%,
+			hsla(329, 0%, 99%, 0.05) 0%,
+			hsla(329, 0%, 99%, 0.05) 53%,
+			transparent 53%,
+			transparent 64%,
+			transparent 64%,
+			transparent 100%
+		),
+		radial-gradient(
+			circle at 35% 75%,
+			hsla(329, 0%, 99%, 0.05) 0%,
+			hsla(329, 0%, 99%, 0.05) 6%,
+			transparent 6%,
+			transparent 98%,
+			transparent 98%,
+			transparent 100%
+		),
+		radial-gradient(
+			circle at 56% 75%,
+			hsla(329, 0%, 99%, 0.05) 0%,
+			hsla(329, 0%, 99%, 0.05) 16%,
+			transparent 16%,
+			transparent 23%,
+			transparent 23%,
+			transparent 100%
+		),
+		radial-gradient(
+			circle at 42% 0%,
+			hsla(329, 0%, 99%, 0.05) 0%,
+			hsla(329, 0%, 99%, 0.05) 3%,
+			transparent 3%,
+			transparent 26%,
+			transparent 26%,
+			transparent 100%
+		),
+		radial-gradient(
+			circle at 29% 28%,
+			hsla(329, 0%, 99%, 0.05) 0%,
+			hsla(329, 0%, 99%, 0.05) 51%,
+			transparent 51%,
+			transparent 75%,
+			transparent 75%,
+			transparent 100%
+		),
+		radial-gradient(
+			circle at 77% 21%,
+			hsla(329, 0%, 99%, 0.05) 0%,
+			hsla(329, 0%, 99%, 0.05) 35%,
+			transparent 35%,
+			transparent 55%,
+			transparent 55%,
+			transparent 100%
+		),
+		radial-gradient(
+			circle at 65% 91%,
+			hsla(329, 0%, 99%, 0.05) 0%,
+			hsla(329, 0%, 99%, 0.05) 46%,
+			transparent 46%,
+			transparent 76%,
+			transparent 76%,
+			transparent 100%
+		),
+		linear-gradient(225deg, rgb(235, 83, 85), rgb(121, 11, 174));
+}
+
+.divided__screen {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.left__side {
+	width: 50%;
+}
+
+.left__img {
+	height: 600px;
+}
+
+.right__side {
+	width: 40%;
+	height: 80%;
+	border-radius: 37px;
+	background: linear-gradient(315deg, rgba(255, 255, 255, 0.347), rgba(140, 140, 140, 0.358));
+	box-shadow: -21px -21px 24px rgba(100, 100, 100, 0.614), 21px 21px 24px rgba(97, 97, 97, 0.574);
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.right__text > h1 {
+	font-family: 'Amita', cursive;
+	font-weight: 700;
+}
+
+p {
+	font-size: 30px;
+	font-weight: 300;
+}
